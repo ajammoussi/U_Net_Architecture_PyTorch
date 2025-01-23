@@ -29,6 +29,7 @@ The project is organized as follows:
     │   └── utils/                  # Utility functions for training and testing
     ├── .gitignore                  # Git ignore file
     ├── main.py                     # Main script for training and testing
+    ├── output.png                  # Sample segmentation result
     ├── README.md                   # Project documentation
     ├── requirements.txt            # Required packages for the project
     └── UNet_Architecture.ipynb     # Jupyter notebook for data visualization, training and testing
@@ -39,7 +40,7 @@ Generated segmentation results for the custom dataset. Below are examples showca
 ### Example:
 A sample image showcasing the segmentation results:
 
-![Segmentation Result](outputs/sample_result.png)
+![Segmentation Result](output.png)
 
 ## 5. Training Details
 - **Dataset**: The implementation supports custom datasets. The dataset should be organized in a specific structure for training and testing.
@@ -60,8 +61,8 @@ A sample image showcasing the segmentation results:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ajammoussi/UNet_project.git
-   cd UNet_project
+   git clone https://github.com/ajammoussi/U_Net_Architecture_PyTorch.git
+   cd UU_Net_Architecture_PyTorch
     ```
 2. Install the required packages:
     ```bash

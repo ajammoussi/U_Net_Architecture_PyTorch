@@ -71,7 +71,7 @@ A sample image showcasing the segmentation results:
 ### Training & Testing
 To train and test the UNet model, run the following command:
    ```bash
-   python train.py
+   python main.py
    ```
 
 ### References

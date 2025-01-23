@@ -1,0 +1,16 @@
+model:
+  in_channels: 3
+  out_channels: 1
+  init_features: 64
+
+train:
+  working_dir: "src/data/"
+  train_batch_size: 64
+  epochs: 15
+  learning_rate: 0.0001
+
+test:
+  working_dir: "src\\data\\"
+  results_dir: "src\\test\\results\\"
+  num_samples: 10
+  test_batch_size: 21
